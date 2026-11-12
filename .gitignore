@@ -1,0 +1,11 @@
+node_modules/
+dist/
+素材/
+__pycache__/
+.pylibs/
+.npm-cache/
+.chrome-profile/
+.chrome-cdp-profile/
+verify-*.png
+.mcp.json
+.DS_Store
