@@ -24,7 +24,7 @@ export const CFG = {
     spotZ: 1.2,
     wallZ: -0.9,
     detailX: -2.0,
-    detailScale: 1.22,
+    detailScale: 1.9, // 2026-11-22 用户要求：画廊视图中央画幅放大到红框尺寸（约 550px 高），由 1.22 调大
     hoverScale: 0.05, // wall print grows slightly under the pointer
     hoverTilt: 0.3, // radians; wall print leans toward the pointer corner
     detailTilt: 0.32, // radians; same effect on the focused print
