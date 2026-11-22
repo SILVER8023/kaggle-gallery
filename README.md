@@ -1,6 +1,6 @@
 # Kaggle 画廊 · 银色实验室
 
-Muse × Kaggle 的联手设计实验：Muse 定主题、写提示词，Kaggle 的 GPU 用 SDXL base 1.0（1024×1024、30 步）把提示词画成图，每 4 小时出一幅。
+Muse × Kaggle 的联手设计实验：Muse 定主题、写提示词，Kaggle 的 GPU 用 SDXL base 1.0（1024×1024、30 步）把提示词画成图，每 2.5 小时出一幅。
 
 在线地址：https://silver8023.github.io/kaggle-gallery/
 
