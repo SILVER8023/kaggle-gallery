@@ -1,10 +1,10 @@
-// Central tunables for the deep-space gallery.
+// Central tunables for the Kaggle gallery.
 export const CFG = {
   camera: { fov: 52, near: 0.1, far: 260 },
 
   photo: {
     baseH: 1.7, // world-space height of every photo
-    radius: 0.1, // rounded-card corner radius in deep space
+    radius: 0.1, // rounded-card corner radius in the gallery
     segments: 10, // paper bend resolution
   },
 

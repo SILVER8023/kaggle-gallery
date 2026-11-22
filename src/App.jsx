@@ -9,7 +9,7 @@ const MODE_HINT = {
   intro: '滚轮切换纵深 · 悬停点亮 · 拖动旋转 · 点击进入画廊',
   assembling: '正在布展…',
   gallery: '点击作品查看档案 · ← → 切换',
-  returning: '返回深空…',
+  returning: '返回画廊…',
 };
 
 function InfoRow({ label, value, mono = false }) {
@@ -116,14 +116,14 @@ export default function App() {
 
   return (
     <div className="app" data-mode={mode} data-detail={detail !== null ? 'on' : 'off'}>
-      <canvas ref={canvasRef} className="stage" aria-label="深空画廊 3D 场景" />
+      <canvas ref={canvasRef} className="stage" aria-label="Kaggle 画廊 3D 场景" />
 
       <div className="depth-blur" aria-hidden="true" />
       <div className="vignette" aria-hidden="true" />
 
       <header className="brand">
-        <p className="brand-kicker">Deep Space Gallery</p>
-        <h1 className="brand-title">深空画廊</h1>
+        <p className="brand-kicker">Kaggle Gallery</p>
+        <h1 className="brand-title">Kaggle 画廊</h1>
         <p className="brand-sub">{total ? `影像 · ${total} 帧` : '影像收藏'}</p>
         <div className="brand-links">
           <button type="button" className="brand-link" onClick={(event) => openAbout('author', event)}>

@@ -22,7 +22,7 @@ function createPaperMaterial(texture, width, height, { radius = 0, key = 'intro'
 
   // Subdivided plane + a small vertex bend keeps the print reading as paper
   // under the moving light without a per-frame CPU deformation pass. The same
-  // shader rounds the deep-space cards; the wall print keeps square corners.
+  // shader rounds the gallery cards; the wall print keeps square corners.
   material.onBeforeCompile = (shader) => {
     shader.uniforms.uCurl = uniformCurl;
     shader.uniforms.uSize = uniformSize;
